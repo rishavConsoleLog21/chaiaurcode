@@ -7,3 +7,4 @@ console.log('Hello JS Developer')
 - Color changing 
 - BMI Calculator
 - Digital Clock
+- Guess the number game
