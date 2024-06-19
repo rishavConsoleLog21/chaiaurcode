@@ -6,3 +6,4 @@ console.log('Hello JS Developer')
 ## Project from Chai aur Code
 - Color changing 
 - BMI Calculator
+- Digital Clock
