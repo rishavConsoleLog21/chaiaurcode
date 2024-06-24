@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Start and Stop</title>
+  </head>
+  <body>
+    <h1>Javascript is best</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+
+    <script>
+        const start = document.getElementById("start");
+        const stop = document.getElementById("stop");
+    
+        let interval;
+    
+        start.addEventListener("click", function(){
+            interval = setInterval(() => {
+            console.log("Hello World");
+            }, 2000);
+        });
+    
+        stop.addEventListener("click", () => {
+            clearInterval(interval);
+        });
+    </script>
+  </body>
+</html>
